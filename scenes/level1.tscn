@@ -1,0 +1,27 @@
+[gd_scene format=3 uid="uid://bv8mgirc6fchm"]
+
+[ext_resource type="Script" uid="uid://p5rr8mke0fgt" path="res://scenes/level_1.gd" id="1_m7ahb"]
+[ext_resource type="Script" uid="uid://cp60l3rqe7o3l" path="res://scenes/ground.gd" id="2_dwgg1"]
+[ext_resource type="PackedScene" uid="uid://bfxxgb3ylv5gf" path="res://scenes/player.tscn" id="3_ru4tf"]
+
+[sub_resource type="TileSet" id="TileSet_e01fp"]
+
+[node name="Node2D" type="Node2D" unique_id=2087485277]
+script = ExtResource("1_m7ahb")
+
+[node name="Ground" type="TileMapLayer" parent="." unique_id=1674604905]
+tile_set = SubResource("TileSet_e01fp")
+script = ExtResource("2_dwgg1")
+
+[node name="PLAYER" parent="." unique_id=1421114071 instance=ExtResource("3_ru4tf")]
+position = Vector2(129, -30)
+
+[node name="Goal" type="Area2D" parent="." unique_id=21466593]
+
+[node name="cookie" type="Sprite2D" parent="Goal" unique_id=1523235227]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Goal" unique_id=2075784156]
+
+[node name="killzone" type="Area2D" parent="." unique_id=1256794142]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="killzone" unique_id=232711983]

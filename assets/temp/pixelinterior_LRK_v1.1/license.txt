@@ -1,0 +1,18 @@
+Bitglow Asset Pack – License
+
+Copyright (c) 2025 Bitglow. All rights reserved.
+
+This asset pack is licensed under the Bitglow Asset License.
+
+You are granted a non-exclusive, non-transferable license to use these assets
+in personal and commercial projects.
+
+You may modify the assets for use within your project.
+
+You may NOT:
+– Resell the assets (original or modified)
+– Redistribute the assets as standalone files
+– Include the assets in another asset pack or resource pack
+– Share the files with others outside your project team
+
+Credit to “Bitglow” is appreciated.
