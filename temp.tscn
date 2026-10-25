@@ -1,0 +1,33 @@
+[gd_scene format=3 uid="uid://dm27pgwmkdfd"]
+
+[ext_resource type="Texture2D" uid="uid://d2mrif0xmoo5g" path="res://assets/sprites/kitchen_LRK.png" id="1_q51th"]
+[ext_resource type="Texture2D" uid="uid://ceeqafat58s6n" path="res://assets/temp/pixelinterior_LRK_v1.1/cabinets_LRK.png" id="2_iyses"]
+[ext_resource type="Texture2D" uid="uid://bqo8aug4aqqs6" path="res://assets/sprites/decorations_LRK.png" id="3_1nlwk"]
+[ext_resource type="Texture2D" uid="uid://drl7yoysubaoj" path="res://assets/sprites/doorswindowsstairs_LRK.png" id="4_b6ebu"]
+[ext_resource type="Texture2D" uid="uid://bl4k5maxm6ncm" path="res://assets/sprites/floorswalls_LRK.png" id="5_v4i6i"]
+[ext_resource type="Texture2D" uid="uid://cx83jet2xrg6x" path="res://assets/temp/pixelinterior_LRK_v1.1/livingroom_LRK.png" id="6_1hi8c"]
+
+[node name="KitchenLrk" type="Sprite2D" unique_id=2038124110]
+position = Vector2(427, 153)
+texture = ExtResource("1_q51th")
+
+[node name="CabinetsLrk" type="Sprite2D" parent="." unique_id=50142401]
+position = Vector2(-624, 27)
+texture = ExtResource("2_iyses")
+
+[node name="DecorationsLrk" type="Sprite2D" parent="." unique_id=551937485]
+position = Vector2(-617.31274, 289.614)
+scale = Vector2(1, 1.0125)
+texture = ExtResource("3_1nlwk")
+
+[node name="DoorswindowsstairsLrk" type="Sprite2D" parent="." unique_id=754543908]
+position = Vector2(216, 335)
+texture = ExtResource("4_b6ebu")
+
+[node name="FloorswallsLrk" type="Sprite2D" parent="." unique_id=2121880852]
+position = Vector2(187, 630)
+texture = ExtResource("5_v4i6i")
+
+[node name="LivingroomLrk" type="Sprite2D" parent="." unique_id=2125872831]
+position = Vector2(-396, 607)
+texture = ExtResource("6_1hi8c")
